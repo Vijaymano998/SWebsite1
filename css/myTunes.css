@@ -1,0 +1,244 @@
+#navigation{
+    background-color: #333;
+    padding: 16px 10px 0px 1px; 
+    margin-left: -8px;
+    margin-top: 0px;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px 10px 30px;
+    font-family: 'pt-sans', sans-serif;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: #555;
+    padding: 15px;
+}
+
+#myTunes{
+    height: 100vh;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);   
+    color: white;
+    padding: 10px;
+    margin: -8px;
+    background-size: cover;
+    background-position: center;
+}
+
+#myTunes h1{
+    font-family: 'pt-sans', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 120px 50px 0px 50px;
+}
+#myTunes h2{
+    font-family: 'pt-sans', sans-serif;
+    font-size: 28px;
+    padding: 0px 10px 20px 0px;
+    text-align: center;
+    display: block;
+}
+
+#myTunes p{
+    font-family: pt-sans, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#Music{
+height: 200vh;
+background-color: #252529;
+color: white;
+padding: 20px;
+margin: -8px;
+text-align: center;
+}
+
+#Music h2{
+    font-family: 'pt-sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 5px 10px 30px;
+}
+
+#Music h3{
+    font-family: 'pt-sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 5px 10px 50px;
+}
+
+.musicpara{
+    font-family: 'pt-sans', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    padding: 0px;
+}
+
+#starttrial{
+    padding: 20px ;
+}
+
+#starttrial a{
+    font-family: 'pt-sans', sans-serif;
+    background-color: #B90415;
+    border: 20px solid #B90415;
+    text-decoration: none;
+    color: white;
+}
+
+.musicpara{
+    font-family: 'pt-sans', sans-serif;
+}
+
+#Video h3{
+    text-align: center;
+    font-family: 'pt-sans', sans-serif;
+    font-size: 30px;
+    color: #252529;
+    padding-top: 40px;
+}
+
+#Video p{
+    font-family: 'pt-sans', sans-serif;
+    font-size: 20px;
+    color: #252529;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+}
+
+#readmore{
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+}
+
+#readmore a{
+    text-decoration: none;
+    color: white;
+    background-color: #103063;
+    border: 20px solid #103063;
+    font-family: 'pt-sans', sans-serif;
+}
+
+img[alt='readmore']{
+padding: 0px 0px 0px 60px;
+}
+
+#GiftCard{
+    height: 80vh;
+background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+padding: 60px 0px 20px 0px;
+    margin: 40px -9px 40px -9px;
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#GiftCard h3{
+    font-family: 'pt-sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 130px 3px 20px 28px;
+}
+
+#GiftCard p{
+    font-family: 'pt-sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    margin-top: -6px;
+}
+
+#GiftCards{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+#GiftCards img{
+    width: 600px;
+    height: 100%;
+    padding: 0px 0px 0px 40px;
+}
+
+#GiftCards h3{
+    color: #252529;
+    font-family: 'pt-sans', sans-serif;
+    font-size: medium;
+    padding-bottom: 40px;
+}
+
+#GiftCards p{
+    color: #252529;
+    font-family: 'pt-sans', sans-serif;
+    font-size: medium;
+}
+
+#GiftCards a{
+    text-decoration: none;
+    color: #103063;
+}
+
+#Footer{
+    height: 40vh;
+    background-color: #252529;
+    margin: 0px -8px 0px -8px;
+    display: flex;
+    gap: 130px;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-top: 20px;
+}
+
+li{
+    color: white;
+    font-family: 'pt-sans', sans-serif;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+li[class='footerlist'] a{
+    color: #ccc;
+    font-family: 'pt-sans', sans-serif;
+    font-size: 14px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.footerlist{
+    font-size: 2px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+#Copyright{
+    height: 60px;
+    background-color: #333;
+    margin: -16px -8px 0px -8px;
+    text-align: center;
+}
+
+#Copyright p{
+    color: white;
+    font-family: 'pt-sans', sans-serif;
+    font-size: 15px;
+    padding: 20px 0px 0px 0px;
+}
+
+
+
+
